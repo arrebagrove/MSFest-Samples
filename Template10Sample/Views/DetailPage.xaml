@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel>
+        <StackPanel Margin="12, 0, 0, 0">
             <TextBlock Style="{StaticResource HeaderTextBlockStyle}"
                        Text="{Binding Path=FullName}" />
             <TextBlock Style="{StaticResource SubheaderTextBlockStyle}"
